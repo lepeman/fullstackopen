@@ -7,9 +7,21 @@ const App = () => {
   const [bad, setBad] = useState(0)
 
   return (
-    <div>
-      code here
-    </div>
+    <>
+      <h1>give feedback</h1>
+      <button>good</button>
+      <button>neutral</button>
+      <button>bad</button>
+      <h1>statistics</h1>
+      <p>
+        good 6 <br />
+        neutral 2 <br />
+        bad 1 <br />
+        all 9 <br />
+        average {6/10.8} <br />
+        positive {(6/9) * 100} %
+      </p>
+    </>
   )
 }
 
